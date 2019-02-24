@@ -1,0 +1,87 @@
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+}
+* {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+body {
+    background: gray;
+    color: #485e74;
+    line-height: 1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1em;
+}
+
+
+.company-info img, .company-info h3, .company-info ul,  .brand {
+    text-align: left;
+}
+.brand span {
+    text-align: left;
+    color: black;
+}
+* {
+    box-sizing: border-box;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    width: 100%;
+}
+.alert {
+        text-align: center;
+        padding: 10px;
+        background: #79c879;
+        color: #fff;
+        margin-bottom: 10px;
+         display:none; 
+}
+.contact form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+ .contact #contactForm input,.contact #contactForm textarea{
+width: 100%;
+padding:1px;
+height:50% ;
+border: 1px solid rgb(158, 158, 212);
+} 
+.contact #contactForm button {
+    width: 200%;
+    height:30px ; 
+    margin-left:  10px;
+    background-color:pink ;
+    color:black;
+}
+.contact #contactForm button:hover{
+    background-color: rgb(146, 68, 68);
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 0 100px 0 rgba(72,94,116,0.7);
+}
+
+.wrapper > * {
+    padding: 2em;
+}
+.contact {
+    background: #f9feff;
+}
+.company-info{
+    background: pink;
+    
+}
